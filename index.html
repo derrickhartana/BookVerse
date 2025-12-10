@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookVerse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon/./favicon-96x96.png" sizes="96x96"/>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon/./favicon.svg"/>
+  <link rel="shortcut icon" href="/assets/favicon/./favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/./apple-touch-icon.png"/>
+  <meta name="apple-mobile-web-app-title" content="BookVerse"/>
+  <link rel="manifest" href="/assets/favicon/./site.webmanifest"/>
+</head>
+<body>
+  <nav class="navbar px-3 sticky-top" >
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo/logo.svg" alt="logo">
+      </a>
+
+      <div class="navbar-icons">
+        <a href="./bookletin.html" class="text-decoration-none text-dark">
+          <i class="fa-regular fa-newspaper fa-lg"></i>
+        </a>
+        <a href="./about.html" class="text-decoration-none text-dark">
+          <i class="fa-regular fa-circle-user"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators fade-up-blur" style="overflow-x: hidden;">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./bookletin.html">
+         <picture>
+            <source srcset="assets/alt/1.png" media="(max-width: 767px)">
+            <img src="assets/1.png" class="d-block w-100" alt="1" loading="eager">
+         </picture>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./bookletin.html">
+          <picture>
+            <source srcset="assets/alt/2.png" media="(max-width: 767px)">
+            <img src="assets/2.png" class="d-block w-100" alt="1" loading="eager">
+         </picture>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./bookletin.html">
+          <picture>
+            <source srcset="assets/alt/3.png" media="(max-width: 767px)">
+            <img src="assets/3.png" class="d-block w-100" alt="1" loading="eager">
+         </picture>
+        </a>
+        </div>
+      </div>
+      <div>
+        <button class="carousel-control-prev prev-button fade-up-blur" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next next-button fade-up-blur" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  <div class="row g-0">
+    <div class="col-12 col-md-6">
+      <div class="card text-bg-dark rounded-0">
+        <picture>
+          <source srcset="assets/alt/4.png" media="(max-width: 767px)">
+          <img src="assets/4.png" class="d-block w-100" alt="4" loading="eager">
+        </picture>
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
+          <h1 class="card-title playfair-display blur fade-up-blur">Bookfess</h1>
+          <p class="card-text fade-up-blur" style="font-weight:300; margin-top: -15px;">Since 2025</p>
+          <a href="https://www.instagram.com/stories/highlights/18025902428732936/" class="btn btn-primary fade-up-blur">→</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="card text-bg-dark rounded-0">
+        <picture>
+          <source srcset="assets/alt/5.png" media="(max-width: 767px)">
+          <img src="assets/5.png" class="d-block w-100" alt="5" loading="eager">
+       </picture>
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
+          <h1 class="card-title playfair-display fade-up-blur">Storylander</h1>
+          <p class="card-text fade-up-blur" style="font-weight:300; margin-top: -15px;">Early 2026</p>
+          <a href="" class="btn btn-secondary fade-up-blur">⊘</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="py-5" style="background-color: #062752; color: #ffffff;">
+    <div class="container text-center visimisi">
+      <h2 class="mb-4 playfair-display fade-up-blur" style="padding-top: 5px;">Visi</h2>
+      <p class="fade-up-blur" style="font-weight: 300; margin-top: -25px;">Merangkai semesta kata dengan kegiatan literasi yang tak hanya menyenangkan, tetapi juga memberi jejak dan perubahan.</p>
+      <br><br>
+      <h2 class="mb-4 playfair-display fade-up-blur">Misi</h2>
+      <p class="fade-up-blur" style="font-weight: 300; margin-top: -25px;">BookVerse bertujuan untuk menumbuhkan budaya literasi yang menyenangkan dan berdampak di kalangan siswa SMA, dengan mendorong minat baca, serta menjadi wadah untuk mengekspresikan diri melalui tulisan, mengembangkan pemikiran kritis dan kreatif, serta menciptakan komunitas yang suportif, dan aktif menyebarkan semangat literasi baik di dalam maupun luar sekolah.</p>
+  </div>
+</section>
+
+<footer class="text-white bg-black py-5">
+  <div class="container footerlol">
+    <div class="row mb-5">
+      <div class="col-md-8 fade-up-blur">
+        <h2 class="info-left">Lokasi</h2>
+        <p class="fw-medium info-left">
+          <i class="fa-regular fa-map"></i>
+          Jl. Majapahit No.39, Cibatu, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17550
+        </p>
+        <p class="fst-italic fw-light info-left">
+          “Book” yang berarti buku dan “Verse” yang berarti alam semesta. Gabungan kedua
+            kata ini menggambarkan bahwa setiap buku ibarat sebuah dunia atau
+            semesta kecil yang penuh dengan pengetahuan, imajinasi, dan petualangan tanpa batas.
+        </p>
+      </div>
+      <div class="col-md-4 fade-up-blur text-md-end mt-4 mt-md-0">
+        <h3 class="info-right">Kontak</h3>
+        <p class="info-right"><i class="fab fa-whatsapp"></i> 0857-1415-4533 (Mikaela)</p>
+        <p class="info-right"><i class="fab fa-instagram"></i> @bookverseproject</p>
+        <p class="info-right"><i class="fab fa-x-twitter"></i> @bookversepro</p>
+        <p class="info-right email"><i class="fa-regular fa-envelope"></i> bookverseassistant@gmail.com</p>
+      </div>
+    </div>
+    <hr class="border-white">
+    <p class="text-center fw-light mt-4 fade-up-blur">&copy; BookVerse TBLC 2025</p>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/anim.js"></script>
+</body>
+</html>
