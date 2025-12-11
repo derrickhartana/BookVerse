@@ -156,11 +156,10 @@
       padding-left: 10vw !important;
       padding-right: 10vw !important;
     }
-    /* .resultBox {
+    .resultBox {
       width: 74.2vw !important;
       margin-left: 10vw !important;
-    } */
-    test {margin: 0; padding: 0;}
+    }
   }
  
 
